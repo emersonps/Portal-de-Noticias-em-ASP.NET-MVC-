@@ -14,5 +14,11 @@ namespace PortalDeNoticias.Controllers
         {
             return View(RepositorioNoticias.Noticias);
         }
+
+        public ActionResult Detalhes(int id)
+        {
+            var noticia = RepositorioNoticias.Noticias.FirstOrDefault(n => n.Id == id);
+            return View(noticia);
+        }
     }
 }
