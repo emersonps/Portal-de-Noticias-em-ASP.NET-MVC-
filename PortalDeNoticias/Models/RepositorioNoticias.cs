@@ -28,7 +28,7 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 1,
-                Título = "Meu primeiro post",
+                Titulo = "Meu primeiro post",
                 Autor = "Emerson Pinheiro de Souza",
                 Data = DateTime.Today,
                 Conteudo = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
@@ -37,7 +37,7 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 2,
-                Título = "Meu segundo post",
+                Titulo = "Meu segundo post",
                 Autor = "Emerson P. de Souza",
                 Data = DateTime.Today,
                 Conteudo = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
@@ -46,7 +46,7 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 3,
-                Título = "Meu terceiro post",
+                Titulo = "Meu terceiro post",
                 Autor = "Emerson de Souza",
                 Data = DateTime.Today,
                 Conteudo = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
@@ -55,7 +55,7 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 4,
-                Título = "Meu quarto post",
+                Titulo = "Meu quarto post",
                 Autor = "Emerson P. Souza",
                 Data = DateTime.Today,
                 Conteudo = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
@@ -64,7 +64,7 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 5,
-                Título = "Meu quinto post",
+                Titulo = "Meu quinto post",
                 Autor = "Emerson S.",
                 Data = DateTime.Today,
                 Conteudo = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
