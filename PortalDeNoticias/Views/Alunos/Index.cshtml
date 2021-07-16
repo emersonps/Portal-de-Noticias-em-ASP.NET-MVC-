@@ -1,0 +1,57 @@
+﻿@model IEnumerable<PortalDeNoticias.Models.Aluno>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Alunos</h2>
+
+
+@{
+    ViewBag.Mensagem = "Teste";
+}
+
+@* Imprimrindo a variável mensagem *@
+<div class="row">
+    <div class="col-md-12">
+        <div class="alert alert-warning">
+            @ViewBag.Mensagem1
+        </div>
+    </div>
+</div>
+
+@* Imprimindo a variavel Mensagem2 *@
+@if (ViewBag.Mensagem2 != null)
+{
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-warning">
+                @ViewBag.Mensagem2.Titulo;
+            </div>
+        </div>
+    </div>
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+        </tr>
+    }
+
+</table>

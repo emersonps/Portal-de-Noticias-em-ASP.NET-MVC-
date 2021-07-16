@@ -26,5 +26,7 @@ namespace PortalDeNoticias.Controllers
             var noticias = RepositorioNoticias.Noticias.Where(n => n.Titulo.Contains(texto) || n.Conteudo.Contains(texto));
             return View(noticias);
         }
+
+
     }
 }
